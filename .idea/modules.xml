@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Slide-to-unlock-master.iml" filepath="$PROJECT_DIR$/Slide-to-unlock-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/Slide-to-unlock-master-app.iml" filepath="$PROJECT_DIR$/app/Slide-to-unlock-master-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidetounlock/Slide-to-unlock-master-slidetounlock.iml" filepath="$PROJECT_DIR$/slidetounlock/Slide-to-unlock-master-slidetounlock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidetounlock/slidetounlock.iml" filepath="$PROJECT_DIR$/slidetounlock/slidetounlock.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+    <data />
+
+    <RelativeLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        tools:context=".MainActivity">
+
+
+       <com.techgen.tejus.slidetounlock.SlideLayout
+            android:id="@+id/slide2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="12dp">
+
+            <TextView
+                android:id="@+id/txt_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="Hello, world"
+                android:layout_marginRight="12dp"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+            <FrameLayout
+                android:id="@+id/slide_child"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="1px"
+                    android:layout_marginTop="1px"
+                    android:layout_marginBottom="1px"
+                    android:layout_marginRight="1px"
+                    android:background="@drawable/button_bg"
+                    />
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:tint="#fff"
+                    android:layout_marginRight="6dp"
+                    android:layout_gravity="center_vertical|right"
+                    android:src="@drawable/ic_slide"/>
+
+            </FrameLayout>
+
+        </com.techgen.tejus.slidetounlock.SlideLayout>
+
+
+
+    </RelativeLayout>
+
+</layout>
