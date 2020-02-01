@@ -1,7 +1,7 @@
 # Slide to unlock
 Slide-to-unlock layout for Android
 
-![test](https://github.com/TejusAcentria/SwipeButtonView.git)
+
 
 ### Usage:
 
