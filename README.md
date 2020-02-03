@@ -2,7 +2,7 @@
 Slide-to-unlock layout for Android
 
 
-
+![test](https://github.com/TejusAcentria/SwipeButtonView/blob/master/DummyUi.gif)
 ### Usage:
 
 Layout:
